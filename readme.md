@@ -18,7 +18,7 @@ CDLA是一个中文文档版面分析数据集，面向中文文献类（论文�
 int main() {
     const string modelPath = "E:\\clion_project\\layout_onnx_cplusplus\\models\\model_det.onnx";
     const string labelNamesPath = "E:\\clion_project\\layout_onnx_cplusplus\\models\\label.names";
-    filesystem::path imagePath = "E:\\clion_project\\layout_onnx_cplusplus\\test_img\\test2.jpeg";
+    filesystem::path imagePath = "E:\\clion_project\\layout_onnx_cplusplus\\test_img\\test.jpeg";
     const string savePath = "E:\\clion_project\\layout_onnx_cplusplus\\test_img_result";
 
     float confThreshold = 0.4f;
